@@ -18,7 +18,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      # Only set up preview environment for pull requests
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v1
         with:
